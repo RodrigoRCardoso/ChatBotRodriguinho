@@ -1,0 +1,6 @@
+package snippet;
+
+public class Snippet {
+	INSERT INTO usuario (USUARIO,RM,DATANASCIMENTO,EMAIL,SENHA) VALUES ('MATHEUS','83217','140601','ADM','123');
+}
+

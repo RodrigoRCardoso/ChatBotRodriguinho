@@ -1,0 +1,3 @@
+INDEX VERSION 1.131
+C:\Users\logonrmlocal\Desktop\chat2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1993784519.index
+\ChatBotRodriguinhov3\src

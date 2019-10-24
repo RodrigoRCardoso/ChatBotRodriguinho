@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+C:\Users\logonrmlocal\Desktop\chat2\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3418018114.index
+2132747541.index
+2779961390.index
+1993784519.index
+1014380884.index
+1409411440.index
+826009359.index

@@ -1,0 +1,421 @@
+.bg {
+    /* The image used */
+    background-image: url("../images/teste.jpg");
+  
+    /* Half height */
+    height: 200px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo{
+    padding-top: 50px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 15px;
+}
+
+.logo a{
+    text-decoration: none;
+}
+
+h5{
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    padding-left: 15%;
+}
+
+.text-center{
+    color: #47525E;
+    margin: 0;
+}
+
+#divCabecalho{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    letter-spacing: 8px;
+    font-weight: 100;
+    padding: 10px;
+    background-color: #A1B9B9;
+    min-height: 60px;
+    border-top: 1px solid #47525E;
+    border-bottom: 1px solid #47525E;
+}
+
+#divCabecalho-nav a:hover{
+    transform: scale(1.15, 1.15);
+    color: black;
+}
+
+#fundo{
+    background-color: #E6E5E1;
+}
+
+footer{
+    padding-top: 20px;
+}
+
+footer .footer-copyright{
+    background-color: #A1B9B9;
+}
+
+.divNavegacao{
+    text-align: center;
+    padding-left: 8%;
+    padding-top: 120px;
+    min-height: 400px;
+}
+
+#divChatBot, .divFormLogin{
+    max-width: 1060px;
+    margin: 0px auto;
+    padding: 20px;
+}
+
+#divChatBot{
+	margin-top: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.dialogo{
+    padding-top: 10px;
+} 
+
+.inputTexto{
+    border-radius: 100px;
+    padding: 15px 30px;
+    width: 100%;
+    border: 1px solid #ccc;
+    background-color: #D7D4D1;
+}
+
+.inputTexto:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+} 
+
+.button-chat{
+    z-index: 999;
+    background: none;
+    border: none;
+    float: right;
+    position: relative;
+    margin: 0 auto;
+}
+
+.button-chat i{
+    font-size: 20px;
+}
+
+#divCabecalho-nav{
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    letter-spacing: 8px;
+    font-weight: 100;
+    padding: 10px;
+    background-color: #A1B9B9;
+    min-height: 60px;
+}
+
+#divCabecalho-nav a{
+    color: rgb(83, 100, 121);
+}
+
+#navbarNavAltMarkup{
+    width:100%;
+    padding-left: 50px;
+}
+
+.principal-card{
+    background-color: #A1B9B9;
+    border: 1px solid black;
+    font-family: 'Lato', sans-serif !important;
+}
+
+.pcGeral{
+    max-height: 600px !important;
+    padding: 0 !important;
+    margin-bottom: 0 !important;
+    margin-top: 20px !important;
+    border-radius: 15px;
+}
+
+.pcPrincipal{
+    min-height: 250px;
+}
+
+.pcQs{
+    height: 180px;
+}
+
+.pcGeral p{
+    padding: 0 10px;
+    font-family: 'Lato', sans-serif !important;
+    text-align: left;
+}
+
+.divContQs .pcGeral p{
+    text-align: center;
+}
+
+.iconLink{
+    width: 130px;
+    transition: 0.5s ease;
+}
+
+.iconLink:hover{
+    width: 150px;
+    transform: scale(1.01, 1.01);
+}
+
+.img-link{
+    margin: 0 30px;
+}
+
+.img-link-2{
+    margin: 0 110px;
+}
+
+legend{
+    font-family: 'Lato', sans-serif;
+    padding-top: 15px;
+    color: black;
+}
+
+.divNavegacao a{
+    text-decoration: none;
+}
+
+ul, #divAjuda{
+    padding-top: 20px;
+}
+
+#divAjuda{
+    min-height: 500px;
+}
+
+#divAjuda li{
+    background-color: transparent !important;
+    cursor: pointer;
+}
+
+#divAjuda li a{
+    color: black;
+}
+
+.img-fundo{
+    background-image: url(../images/photo-1550430016-d4b30cf6521f.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 500px;
+    background-attachment: fixed;
+}
+
+.form-signin{
+    width: 30%;
+    margin: 20px auto 0 auto;
+}
+
+.form-signin .btn {
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    transition: all 0.2s;
+    
+}
+
+.form-label-group {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.form-label-group input {
+    height: auto;
+    border-radius: 2rem;
+}
+
+
+.divFormLogin{
+    width: 100%;
+    margin-top: 180px !important;
+}
+
+.divFormLogin input, .divFormLogin label, .btnLogin {
+    padding: 0 15px;
+    height: 50px;
+}
+
+.divFormLogin input{
+    background-color: transparent;
+    border: 2px solid #495057;
+}
+
+#inputUsuario::-webkit-outer-spin-button, #inputUsuario::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.card-header{
+    /* height: 60px !important; */
+    font-family: 'Lato', sans-serif;
+    padding: 0 !important;
+    max-height: 150px;
+}
+
+.cbGeral{
+    font-family: 'Lato', sans-serif;
+    min-height: 215px;
+}
+
+.btnDuvidas{
+    background-color: #E8A431;
+    border: 1px solid;
+    color:  #fff;
+}
+  
+.btnDuvidas:hover{
+    background-color: #fff;
+    border: 1px solid;
+    color: #E8A431;
+}
+
+.nav-item{
+    font-family: 'Lato', sans-serif !important;
+}
+
+.divsindex{
+    min-height: 160px;
+}
+
+.divqs{
+    min-height: 100px;
+    height: 100px !important;
+}
+
+.tlIndex{
+    padding-top: 20px;
+}
+
+.cbIndex{
+    min-height: 250px;
+}
+
+.corbotao{
+    background-color: #E8A431;
+    border: 1px solid;
+    color:  #fff;
+    margin-bottom: 10px;
+}
+
+.btnLog{
+	float:left;
+    margin-top: 10px !important;
+    text-decoration: none;
+    color: black;
+    font-family: 'Lato', sans-serif !important;
+    letter-spacing: 3px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: solid 1px black;
+    padding: 3px;
+}
+
+.btnLogin{
+    width: 35% !important;
+    display: inline-block;
+    height: 45px;
+}
+
+.btnCadastrar{
+    background-color: #70db85;
+    border-color: #70db85;
+    width: 35% !important;
+    display: inline-block;
+    margin-top: 0 !important;
+    height: 45px;
+}
+
+@media screen and (min-width: 1275px){
+    .btnLogin{
+        margin-left: 30px;
+    }
+}
+
+@media screen and (min-width: 100px) and (max-width: 1270px){
+    .btnLogin{
+        width: 60% !important;
+        margin-bottom: 10px !important;
+        margin-left: 50px;
+    }
+    .btnCadastrar{
+        width: 60% !important ;
+        margin-left: 50px;
+    }
+}
+
+.btnCadastrar:hover{
+    background-color: #36cf54;
+    border-color: #36cf54;
+}
+
+.divEsqueciSenha{
+    margin: 20px 0 0 18%;
+}
+
+.linkEsqueciSenha{
+    color: black !important;
+    text-decoration: none !important;
+}
+
+.formLogin{
+    width: 95%;
+}
+
+.txtLogin{
+    margin-left: calc(100% - 80px);
+}
+
+.txtLogout{
+    margin-left: calc(100% - 101px);
+}
+
+.cbDuvidas{
+    padding: 0;
+}
+
+.ctIndex{
+    min-height: 48px;
+}
+
+.ftGeral{
+    position: absolute;
+    bottom:0 auto;
+    width:100%;
+    height:56px;
+}
+
+.lblCadastro{
+    height: 20px !important;
+}
+
+.divRedirect{
+    width: 50% !important;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.msgErro{
+	color: red;
+	width: 100%;
+	margin: 0px 0px 10px 43.5%;
+	float:left;
+}
+
+.titleBot{
+	color: #fff;
+	letter-spacing: 5px;
+}
