@@ -1,2 +1,2 @@
 # ChatBotRodriguinho
-Repositório para entregar a AM de Web
+Repositório para armazenar o ChatBot watson 
